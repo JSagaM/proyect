@@ -18,3 +18,13 @@
 .slider-text {
   font-size: var(--fs-nm);
 }
+
+.footer-title {
+  font-family: var(--ff-main);
+  font-size: var(--fs-lg);
+}
+
+.footer-extra-title {
+  font-family: var(--ff-main);
+  font-size: var(--fs-nm);
+}

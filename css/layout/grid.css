@@ -15,7 +15,7 @@
   margin-bottom: 5rem;
 }
 
-.activities-container {
+.menu-container {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -23,7 +23,7 @@
   width: 80vw;
 }
 
-.activity {
+.menu {
   display: grid;
   background: var(--clr-white);
   border-radius: 2rem;
@@ -40,4 +40,10 @@
 .dish-image {
   display: grid;
   padding: 1rem 1rem;
+}
+
+.featured {
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
