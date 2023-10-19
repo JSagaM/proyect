@@ -1,6 +1,6 @@
 .logo {
-  width: 10%;
-  height: 10%;
+  width: 5vw;
+  height: 5vw;
   padding: 0.5rem;
 }
 
@@ -9,4 +9,12 @@
   display: center;
   width: 60%;
   padding: 1rem;
+}
+
+.btn {
+  align-items: center;
+  background: var(--clr-red);
+  border-radius: 1.5rem;
+  display: flex;
+  padding: 0.5rem 2rem;
 }

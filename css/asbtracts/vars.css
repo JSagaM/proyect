@@ -20,8 +20,8 @@
   --fw-rg: 400;
 
   /* Colors HSLA */
-  --clr-main: hsla(0, 100%, 50%, 1);
-  --clr-main-bg: rgb(166, 166, 166);
+  --clr-main-bg: hsla(0, 0%, 44%, 1);
+  --clr-red: hsla(0, 100%, 50%, 1);
   --clr-white: hsla(0, 0%, 100%, 1);
   --clr-green: hsla(120, 100%, 25%, 1);
 }
