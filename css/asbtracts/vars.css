@@ -1,0 +1,25 @@
+:root{
+    /* Fonts english*/
+  --ff-main: "Taviraj", serif;
+  --ff-secondary: "Nunito", sans-serif;
+
+  /* Fonts arabic*/
+  --ff-main2: "Amiri Quran", serif;
+  --ff-secondary2: "El Messiri", sans-serif;
+
+  /* Font size */
+  --fs-xl: 4rem;
+  --fs-lg: 2rem;
+  --fs-md: 1.125rem;
+  --fs-nm: 1rem;
+  --fs-sm: 0.875rem;
+
+  /* Font Weight */
+  --fw-bk: 900;
+  --fw-md: 500;
+  --fw-rg: 400;
+
+  /* Colors HSLA */
+  --clr-main: hsla(0, 100%, 50%, 1);
+  --clr-green: hsla(120, 100%, 25%, 1);
+}
