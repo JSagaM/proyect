@@ -1,12 +1,13 @@
 .featured-title {
   font-family: var(--ff-main);
   font-size: clamp(var(--fs-lg), 3rem, var(--fs-xl));
+  padding-left: 5rem;
 }
 
 .featured-text {
   font-size: var(--fs-md);
   margin: 0 auto 2rem;
-  width: clamp(20ch, 50%, 55ch);
+  width: clamp(20ch, 60%, 55ch);
 }
 
 .slider-title {
