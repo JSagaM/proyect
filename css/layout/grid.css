@@ -1,8 +1,11 @@
 .main-dish {
   align-content: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 45vw));
   text-align: center;
-  margin: 0.1rem auto;
-  width: 80vw;
+  margin: 0.5rem 1rem;
+  width: 100%;
 }
 
 .cta-container {
@@ -26,4 +29,15 @@
   border-radius: 2rem;
   padding: 2rem 1rem;
   text-align: center;
+}
+
+.dish-description {
+  display: grid;
+  background: none;
+  text-align: left;
+}
+
+.dish-image {
+  display: grid;
+  padding: 1rem 1rem;
 }

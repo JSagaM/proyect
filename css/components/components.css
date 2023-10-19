@@ -6,9 +6,8 @@
 
 .featured-dish {
   border-radius: 2rem;
-  display: center;
-  width: 60%;
-  padding: 1rem;
+  display: left;
+  width: 100%;
 }
 
 .btn {
