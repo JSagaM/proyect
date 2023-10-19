@@ -1,0 +1,8 @@
+.hero-container {
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  background-color: var(--clr-green);
+  width: 100%;
+  text-align: center;
+  height: min(6rem, 10rem, 12rem);
+}

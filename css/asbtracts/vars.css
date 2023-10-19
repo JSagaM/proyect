@@ -1,5 +1,5 @@
-:root{
-    /* Fonts english*/
+:root {
+  /* Fonts english*/
   --ff-main: "Taviraj", serif;
   --ff-secondary: "Nunito", sans-serif;
 
@@ -21,5 +21,7 @@
 
   /* Colors HSLA */
   --clr-main: hsla(0, 100%, 50%, 1);
+  --clr-main-bg: rgb(166, 166, 166);
+  --clr-white: hsla(0, 0%, 100%, 1);
   --clr-green: hsla(120, 100%, 25%, 1);
 }

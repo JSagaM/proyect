@@ -1,0 +1,12 @@
+.logo {
+  width: 10%;
+  height: 10%;
+  padding: 0.5rem;
+}
+
+.featured-dish {
+  border-radius: 2rem;
+  display: center;
+  width: 60%;
+  padding: 1rem;
+}

@@ -1,0 +1,13 @@
+/* index.HTML modifications */
+html {
+  font-size: 18px;
+}
+
+/* body modifications */
+body {
+  background: var(--clr-main-bg);
+  display: grid;
+  font-family: var(--ff-secondary);
+  margin: 0;
+  padding: 0%;
+}

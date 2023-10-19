@@ -1,0 +1,20 @@
+.featured-title {
+  font-family: var(--ff-main);
+  font-size: clamp(var(--fs-lg), 3rem, var(--fs-xl));
+}
+
+.featured-text {
+  font-size: var(--fs-md);
+  margin: 0 auto 2rem;
+  width: clamp(20ch, 50%, 55ch);
+}
+
+.slider-title {
+  font-family: var(--ff-main);
+  font-size: var(--fs-md);
+  margin: 1rem 0 0;
+}
+
+.slider-text {
+  font-size: var(--fs-nm);
+}
