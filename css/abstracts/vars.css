@@ -24,4 +24,8 @@
   --clr-red: hsla(0, 100%, 50%, 0.5);
   --clr-white: hsla(0, 0%, 100%, 1);
   --clr-green: hsla(120, 100%, 25%, 1);
+
+  /* Icons */
+  --icon-rarrow: url("../imgs/icons/right-arrow.png");
+  --icon-larrow: url("../imgs/icons/left-arrow.png");
 }
