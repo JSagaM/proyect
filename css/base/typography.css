@@ -2,6 +2,7 @@
   font-family: var(--ff-main);
   font-size: clamp(var(--fs-lg), 3rem, var(--fs-xl));
   padding-left: 5rem;
+  margin: 1.5rem;
 }
 
 .featured-text {
