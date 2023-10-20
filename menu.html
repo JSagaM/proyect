@@ -2,338 +2,140 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-    <!-- Google Fonts START-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=El+Messiri&family=Nunito&family=Taviraj&display=swap"
-        rel="stylesheet">
-    <!-- Google Fonts END-->
-    <link rel="stylesheet" href="./css/main.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <!-- Google Fonts START-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=El+Messiri&family=Nunito&family=Taviraj&display=swap"
+    rel="stylesheet">
+  <!-- Google Fonts END-->
+  <link rel="stylesheet" href="./css/main.css" />
 </head>
 
 <body>
-    <header class="hero-container">
-        <nav class="top-nav">
-            <a href="index.html"><img class="logo" src="./imgs/Logo.svg" alt="Restaurant logo" /></a>
+  <!-- Header START -->
+  <header class="hero-container">
+    <nav class="top-nav">
+      <a href="index.html"><img class="logo" src="./imgs/Logo.svg" alt="Restaurant logo" /></a>
 
-            <!-- Mobile nav btn START -->
+      <!-- Mobile nav btn START -->
 
-            <!-- Mobile nav btn END -->
+      <!-- Mobile nav btn END -->
 
-            <ul class="nav-list">
-                <li><a class="nav-list-link" href="index.html">Home</a></li>
-                <li><a class="nav-list-link" href="menu.html">Menu</a></li>
-                <li><a class="nav-list-link" href="#footer">About</a></li>
-                <li><a class="nav-list-link" href="#footer">Contact us</a></li>
-                <li><a class="nav-list-link" href="#">Log in</a></li>
+      <ul class="nav-list">
+        <li><a class="nav-list-link" href="index.html">Home</a></li>
+        <li><a class="nav-list-link" href="menu.html">Menu</a></li>
+        <li><a class="nav-list-link" href="#footer">About</a></li>
+        <li><a class="nav-list-link" href="#footer">Contact us</a></li>
+        <li><a class="nav-list-link" href="#">Log in</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Header END -->
+
+  <!-- Main START -->
+  <main>
+    <!-- Menu options START -->
+    <h1 class="featured featured-title">Menu</h1>
+
+    <div class="menu-container">
+      <section class="menu">
+        <a href="#entries"><img class="dish-icon" src="./imgs/icons/entries.png" alt="Entries" /></a>
+        <h3 class="slider-title">Entries</h3>
+        <p class="slider-text">
+          A variety of entries and salads to choose from.
+        </p>
+      </section>
+      <section class="menu">
+        <a href="#main-dish"><img class="dish-icon" src="./imgs/icons/main dish.png" alt="Main Dish" /></a>
+        <h3 class="slider-title">Main Dish</h3>
+        <p class="slider-text">
+          The main course, choose from our delicious options.
+        </p>
+      </section>
+      <section class="menu">
+        <a href="#drinks"><img class="dish-icon" src="./imgs/icons/drinks.png" alt="Drinks" /></a>
+        <h3 class="slider-title">Drinks</h3>
+        <p class="slider-text">
+          Alcoholic and non-alcoholic drinks.
+        </p>
+      </section>
+      <section class="menu">
+        <a href="#desserts"><img class="dish-icon" src="./imgs/icons/desserts.png" alt="Desserts" /></a>
+        <h3 class="slider-title">Desserts</h3>
+        <p class="slider-text">
+          A variety of sweet or salty desserts to choose from.
+        </p>
+      </section>
+    </div>
+    <!-- Menu options END -->
+
+    <!-- Entries START -->
+    <h2 class="featured featured-title" id="entries">Entries</h2>
+    <div class="dishs-container">
+      <section class="menu">
+        <div class="dish-thumb">
+          <img class="dish-image" src="./imgs/Kibbeh.jpg" alt="CHANGE DESCRIPTIONS" />
+          <button class="like-btn">
+            <img src="./imgs/icons/like.svg" alt="Like" />
+          </button>
+          <span class="dish-price">$10</span>
+        </div>
+        <h3 class="slider-title">DISH NAME</h3>
+        <p class="slider-text">
+          Dish short description.
+        </p>
+        <a class="btn read-btn" href="#">Read more</a>
+      </section>
+    </div>
+    <!-- Entries END -->
+
+
+    <!-- Footer START -->
+    <footer class="footer-container" id="footer">
+      <div class="footer-content">
+        <section>
+          <h3 class="footer-title">Restaurant information.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et
+            dolore magna aliqua. Interdum varius sit amet mattis. Augue neque gravida in fermentum et
+            sollicitudin ac.
+            Enim sed faucibus turpis in eu. Phasellus faucibus scelerisque eleifend donec. Dictum varius
+            duis at
+            consectetur lorem donec.
+          </p>
+        </section>
+        <div class="footer-links">
+          <section>
+            <h3 class="footer-extra-title">Get to Know Us</h3>
+            <ul class="nav-footer-list">
+              <li><a class="nav-footer-link href=" #">About Us</a></li>
+              <li><a class="nav-footer-link href=" #">FAQs</a></li>
+              <li><a class="nav-footer-link href=" #">Locations</a></li>
+              <li><a class="nav-footer-link href=" #">Media Center</a></li>
             </ul>
-        </nav>
-    </header>
-    <main>
-      <h1 class="featured featured-title">Menu</h1>
-
-      <div class="menu-container">
-          <section class="menu">
-              <a href="#entries"><img class="activity-icon" src="./imgs/icons/entries.png" alt="Camping & Day use" /></a>
-              <h3 class="slider-title">Entries</h3>
-              <p class="slider-text">
-                  A variety of entries and salads to choose from.
-              </p>
           </section>
-          <section class="menu">
-            <a href="#entries"><img class="activity-icon" src="./imgs/icons/main dish.png" alt="Tours & Tickets" /></a>
-              <h3 class="slider-title">Main Dish</h3>
-              <p class="slider-text">
-                  The main course, choose from our delicious options.
-              </p>
+          <section>
+            <h3 class="footer-extra-title">Let Us Help You</h3>
+            <ul class="nav-footer-list">
+              <li><a class="nav-footer-link href=" #">Your Account</a></li>
+              <li><a class="nav-footer-link href=" #">Your Orders</a></li>
+              <li><a class="nav-footer-link href=" #">Contact Us</a></li>
+              <li><a class="nav-footer-link href=" #">Help Center</a></li>
+              <li><a class="nav-footer-link href=" #">Submit Feedback</a></li>
+            </ul>
           </section>
-          <section class="menu">
-            <a href="#entries"><img class="activity-icon" src="./imgs/icons/drinks.png" alt="Permits" /></a>
-              <h3 class="slider-title">Drinks</h3>
-              <p class="slider-text">
-                  Alcoholic and non-alcoholic drinks.
-              </p>
-          </section>
-          <section class="menu">
-            <a href="#entries"><img class="activity-icon" src="./imgs/icons/desserts.png" alt="Recreation Activities" /></a>
-              <h3 class="slider-title">Desserts</h3>
-              <p class="slider-text">
-                  A variety of sweet or salty desserts to choose from.
-              </p>
-          </section>
+        </div>
       </div>
-
-      <!--
-      <section class="destinations-container">
-                  <div class="activities-container">
-            <section class="activity">
-              <div class="activity-thumb">
-                <img
-                  class="activity-image"
-                  src="./imgs/trickle-creek-ranch.webp"
-                  alt="Trickle Creek Ranch"
-                />
-                <button class="like-btn">
-                  <img src="./imgs/icons/like.svg" alt="Like" />
-                </button>
-                <span class="activity-price">$36/night</span>
-              </div>
-              <h3 class="activity-title">Trickle Creek Ranch</h3>
-              <p class="activity-text">
-                Book unique camping experiences on over 300,00 campsites
-              </p>
-              <a class="btn read-btn" href="#">Read more</a>
-            </section>
-            <section class="activity">
-              <div class="activity-thumb">
-                <img
-                  class="activity-image"
-                  src="./imgs/dragonfly-tiny-cabin.webp"
-                  alt="Dragonfly Tiny Cabin"
-                />
-                <button class="like-btn">
-                  <img src="./imgs/icons/like.svg" alt="Like" />
-                </button>
-                <span class="activity-price">$36/night</span>
-              </div>
-              <h3 class="activity-title">Dragonfly Tiny Cabin</h3>
-              <p class="activity-text">
-                Book unique camping experiences on over 300,00 campsites
-              </p>
-              <a class="btn read-btn" href="#">Read more</a>
-            </section>
-            <section class="activity">
-              <div class="activity-thumb">
-                <img
-                  class="activity-image"
-                  src="./imgs/tiny-cabins-in-the-mountains.webp"
-                  alt="Tiny Cabin in the mountins"
-                />
-                <button class="like-btn">
-                  <img src="./imgs/icons/like.svg" alt="Like" />
-                </button>
-                <span class="activity-price">$36/night</span>
-              </div>
-              <h3 class="activity-title">Tiny Cabin in the mountins</h3>
-              <p class="activity-text">
-                Book unique camping experiences on over 300,00 campsites
-              </p>
-              <a class="btn read-btn" href="#">Read more</a>
-            </section>
-            <section class="activity">
-              <div class="activity-thumb">
-                <img
-                  class="activity-image"
-                  src="./imgs/the-stuga.webp"
-                  alt="The Stuga"
-                />
-                <button class="like-btn">
-                  <img src="./imgs/icons/like.svg" alt="Like" />
-                </button>
-                <span class="activity-price">$36/night</span>
-              </div>
-              <h3 class="activity-title">The Stuga</h3>
-              <p class="activity-text">
-                Book unique camping experiences on over 300,00 campsites
-              </p>
-              <a class="btn read-btn" href="#">Read more</a>
-            </section>
-          </div>
-          <div class="activities-container">
-            <section class="activity">
-              <div class="activity-thumb">
-                <img
-                  class="activity-image"
-                  src="./imgs/luxury-tiny-beach-cabin.webp"
-                  alt="Luxury Tiny Beach Cabin"
-                />
-                <button class="like-btn">
-                  <img src="./imgs/icons/like.svg" alt="Like" />
-                </button>
-                <span class="activity-price">$36/night</span>
-              </div>
-              <h3 class="activity-title">Luxury Tiny Beach Cabin</h3>
-              <p class="activity-text">
-                Book unique camping experiences on over 300,00 campsites
-              </p>
-              <a class="btn read-btn" href="#">Read more</a>
-            </section>
-            <section class="activity">
-              <div class="activity-thumb">
-                <img
-                  class="activity-image"
-                  src="./imgs/the-summit-cabin.webp"
-                  alt="The Summit Cabin"
-                />
-                <button class="like-btn">
-                  <img src="./imgs/icons/like.svg" alt="Like" />
-                </button>
-                <span class="activity-price">$36/night</span>
-              </div>
-              <h3 class="activity-title">The Summit Cabin</h3>
-              <p class="activity-text">
-                Book unique camping experiences on over 300,00 campsites
-              </p>
-              <a class="btn read-btn" href="#">Read more</a>
-            </section>
-            <section class="activity">
-              <div class="activity-thumb">
-                <img
-                  class="activity-image"
-                  src="./imgs/kindred-spirits-cabin.webp"
-                  alt="Kindred Spirits Cabin"
-                />
-                <button class="like-btn">
-                  <img src="./imgs/icons/like.svg" alt="Like" />
-                </button>
-                <span class="activity-price">$36/night</span>
-              </div>
-              <h3 class="activity-title">Kindred Spirits Cabin</h3>
-              <p class="activity-text">
-                Book unique camping experiences on over 300,00 campsites
-              </p>
-              <a class="btn read-btn" href="#">Read more</a>
-            </section>
-            <section class="activity">
-              <div class="activity-thumb">
-                <img
-                  class="activity-image"
-                  src="./imgs/the-hermitage-cabin.webp"
-                  alt="The Hermitage Cabin"
-                />
-                <button class="like-btn">
-                  <img src="./imgs/icons/like.svg" alt="Like" />
-                </button>
-                <span class="activity-price">$36/night</span>
-              </div>
-              <h3 class="activity-title">The Hermitage Cabin</h3>
-              <p class="activity-text">
-                Book unique camping experiences on over 300,00 campsites
-              </p>
-              <a class="btn read-btn" href="#">Read more</a>
-            </section>
-          </div>
-          <div class="activities-container">
-            <section class="activity">
-              <div class="activity-thumb">
-                <img
-                  class="activity-image"
-                  src="./imgs/red-lifeguard-stand.webp"
-                  alt="Red Lifeguard Stand"
-                />
-                <button class="like-btn">
-                  <img src="./imgs/icons/like.svg" alt="Like" />
-                </button>
-                <span class="activity-price">$36/night</span>
-              </div>
-              <h3 class="activity-title">Red Lifeguard Stand</h3>
-              <p class="activity-text">
-                Book unique camping experiences on over 300,00 campsites
-              </p>
-              <a class="btn read-btn" href="#">Read more</a>
-            </section>
-            <section class="activity">
-              <div class="activity-thumb">
-                <img
-                  class="activity-image"
-                  src="./imgs/the-tree-house.webp"
-                  alt="The Tree House"
-                />
-                <button class="like-btn">
-                  <img src="./imgs/icons/like.svg" alt="Like" />
-                </button>
-                <span class="activity-price">$36/night</span>
-              </div>
-              <h3 class="activity-title">The Tree House</h3>
-              <p class="activity-text">
-                Book unique camping experiences on over 300,00 campsites
-              </p>
-              <a class="btn read-btn" href="#">Read more</a>
-            </section>
-            <section class="activity">
-              <div class="activity-thumb">
-                <img
-                  class="activity-image"
-                  src="./imgs/barrier-island-elevated-tent.webp"
-                  alt="Barrier Island Elevated Tent"
-                />
-                <button class="like-btn">
-                  <img src="./imgs/icons/like.svg" alt="Like" />
-                </button>
-                <span class="activity-price">$36/night</span>
-              </div>
-              <h3 class="activity-title">Barrier Island Elevated Tent</h3>
-              <p class="activity-text">
-                Book unique camping experiences on over 300,00 campsites
-              </p>
-              <a class="btn read-btn" href="#">Read more</a>
-            </section>
-            <section class="activity">
-              <div class="activity-thumb">
-                <img
-                  class="activity-image"
-                  src="./imgs/ninovan-on-the-shore.webp"
-                  alt="Ninovan on the Shore"
-                />
-                <button class="like-btn">
-                  <img src="./imgs/icons/like.svg" alt="Like" />
-                </button>
-                <span class="activity-price">$36/night</span>
-              </div>
-              <h3 class="activity-title">Ninovan on the Shore</h3>
-              <p class="activity-text">
-                Book unique camping experiences on over 300,00 campsites
-              </p>
-              <a class="btn read-btn" href="#">Read more</a>
-            </section>
-          </div>
-        </section>-->
-      <!-- Footer START -->
-      <footer class="footer-container" id="footer">
-          <div class="footer-content">
-              <section>
-                  <h3 class="footer-title">Restaurant information.</h3>
-                  <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore et
-                      dolore magna aliqua. Interdum varius sit amet mattis. Augue neque gravida in fermentum et
-                      sollicitudin ac.
-                      Enim sed faucibus turpis in eu. Phasellus faucibus scelerisque eleifend donec. Dictum varius
-                      duis at
-                      consectetur lorem donec.
-                  </p>
-              </section>
-              <div class="footer-links">
-                  <section>
-                      <h3 class="footer-extra-title">Get to Know Us</h3>
-                      <ul class="nav-footer-list">
-                          <li><a class="nav-footer-link href=" #">About Us</a></li>
-                          <li><a class="nav-footer-link href=" #">FAQs</a></li>
-                          <li><a class="nav-footer-link href=" #">Locations</a></li>
-                          <li><a class="nav-footer-link href=" #">Media Center</a></li>
-                      </ul>
-                  </section>
-                  <section>
-                      <h3 class="footer-extra-title">Let Us Help You</h3>
-                      <ul class="nav-footer-list">
-                          <li><a class="nav-footer-link href=" #">Your Account</a></li>
-                          <li><a class="nav-footer-link href=" #">Your Orders</a></li>
-                          <li><a class="nav-footer-link href=" #">Contact Us</a></li>
-                          <li><a class="nav-footer-link href=" #">Help Center</a></li>
-                          <li><a class="nav-footer-link href=" #">Submit Feedback</a></li>
-                      </ul>
-                  </section>
-              </div>
-          </div>
-          <p class="footer-legal">&copy; 2023. All rights reserved.</p>
-      </footer>
-      <!-- Footer END-->
+      <p class="footer-legal">&copy; 2023. All rights reserved.</p>
+    </footer>
+    <!-- Footer END-->
   </main>
-
+  <!-- Main END -->
 </body>
 
 </html>
