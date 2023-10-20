@@ -126,7 +126,7 @@
 }
 
 #slide4:checked ~ #slides .inner {
-  margin-left: -500%;
+  margin-left: -300%;
 }
 
 #slides .inner {
@@ -226,7 +226,7 @@ controls label:hover {
 #slide2:checked ~ #bullets label:nth-child(2),
 #slide3:checked ~ #bullets label:nth-child(3),
 #slide4:checked ~ #bullets label:nth-child(4) {
-  background: var(--clr-red);
+  background: var(--clr-green);
 }
 
 @media screen and (max-width: 900px) {
