@@ -23,7 +23,7 @@
   --clr-main-bg: rgb(234, 234, 234);
   --clr-gray-bg: hsla(0, 0%, 55%, 0.1);
   --clr-gray-txt: hsla(0, 0%, 55%, 1);
-  --clr-red: hsla(0, 100%, 50%, 0.5);
+  --clr-red: hsla(0, 100%, 50%, 1);
   --clr-white: hsla(0, 0%, 100%, 1);
   --clr-green: hsla(120, 100%, 25%, 1);
 

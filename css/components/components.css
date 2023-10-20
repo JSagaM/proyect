@@ -9,10 +9,15 @@
   display: left;
   width: 100%;
 }
+.featured-image {
+  border-radius: 1rem;
+  display: block;
+  width: 100%;
+}
 
 .btn {
   align-items: center;
-  background: var(--clr-red);
+  background: var(--clr-green);
   border-radius: 1.5rem;
   display: flex;
   padding: 0.5rem 2rem;
