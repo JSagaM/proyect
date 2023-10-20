@@ -1,3 +1,4 @@
+/* ENGLISH TEXTS START */
 .featured-title {
   font-family: var(--ff-main);
   font-size: clamp(var(--fs-lg), 3rem, var(--fs-xl));
@@ -34,3 +35,51 @@
   font-family: var(--ff-main);
   font-size: var(--fs-nm);
 }
+/* ENGLISH TEXTS END */
+
+/* ARABIC TEXTS START */
+.featured-title-arabic {
+  font-family: var(--ff-main-arabic);
+  font-size: clamp(var(--fs-lg), 3rem, var(--fs-xl));
+  text-align: left;
+}
+
+.main-title-arabic {
+  font-family: var(--ff-main-arabic);
+  font-size: clamp(var(--fs-lg), 3rem, var(--fs-xl));
+  padding-left: 5rem;
+  text-align: left;
+}
+
+.featured-text-arabic {
+  font-size: var(--fs-md);
+  margin: 0 auto 2rem;
+  width: clamp(20ch, 60%, 55ch);
+  text-align: left;
+}
+
+.slider-title-arabic {
+  font-family: var(--ff-main-arabic);
+  font-size: var(--fs-md);
+  margin: 1rem 0 0;
+}
+
+.slider-text-arabic {
+  font-size: var(--fs-nm);
+}
+
+.footer-title-arabic {
+  font-family: var(--ff-main-arabic);
+  font-size: var(--fs-lg);
+}
+
+.footer-extra-title-arabic {
+  font-family: var(--ff-main-arabic);
+  font-size: var(--fs-nm);
+}
+
+.body-arabic{
+  font-family: var(--ff-secondary-arabic);
+  
+}
+/* ARABIC TEXTS END */

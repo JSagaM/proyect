@@ -4,8 +4,8 @@
   --ff-secondary: "Nunito", sans-serif;
 
   /* Fonts arabic*/
-  --ff-main2: "Amiri Quran", serif;
-  --ff-secondary2: "El Messiri", sans-serif;
+  --ff-main-arabic: "Amiri Quran", serif;
+  --ff-secondary-arabic: "El Messiri", sans-serif;
 
   /* Font size */
   --fs-xl: 4rem;
