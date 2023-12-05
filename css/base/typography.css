@@ -1,7 +1,13 @@
 /* ENGLISH TEXTS START */
-.featured-title {
+.hero-title {
   font-family: var(--ff-main);
   font-size: clamp(var(--fs-lg), 3rem, var(--fs-xl));
+}
+
+.hero-text {
+  font-size: var(--fs-md);
+  width: clamp(30ch, 50%, 55ch);
+  margin: 0 auto 2rem;
 }
 
 .main-title {
@@ -10,21 +16,72 @@
   padding-left: 5rem;
 }
 
-.featured-text {
-  font-size: var(--fs-md);
-  margin: 0 auto 2rem;
-  width: clamp(20ch, 60%, 55ch);
+.featured-title {
+  font-family: var(--ff-main);
+  font-size: clamp(var(--fs-md), 1.875rem, var(--fs-lg));
+  margin: 1rem auto;
+  width: 17ch;
 }
 
-.slider-title {
+.dish-title {
   font-family: var(--ff-main);
   font-size: var(--fs-md);
   margin: 1rem 0 0;
 }
 
-.slider-text {
+.dish-category {
+  font-size: var(--fs-sm);
+  font-style: italic;
+}
+
+.dish-text {
   font-size: var(--fs-nm);
 }
+
+.dish-extra {
+  font-size: var(--fs-sm);
+}
+
+.dish-price {
+  font-family: var(--ff-main);
+  font-size: var(--fs-md);
+  font-style: italic;
+}
+
+.price-small {
+  font-style: italic;
+}
+
+.nav-bottom-link {
+  color: var(--clr-black);
+  font-size: var(--fs-md);
+  text-decoration: none;
+}
+
+
+.dish-related {
+  list-style-type: none;
+}
+
+/* REVISAR SI SE USAN Y SACARLOS DEL ESTA SECCIÓN */
+/* REVISAR SI SE USAN Y SACARLOS DEL ESTA SECCIÓN */
+
+.activity-tours {
+  list-style-type: none;
+}
+
+.checkout {
+  font-family: var(--ff-main);
+  font-size: var(--fs-xsm);
+  text-align: right;
+}
+
+.terms {
+  text-align: left;
+  font-style: italic;
+}
+/* REVISAR SI SE USAN Y SACARLOS DEL ESTA SECCIÓN */
+/* REVISAR SI SE USAN Y SACARLOS DEL ESTA SECCIÓN */
 
 .footer-title {
   font-family: var(--ff-main);
@@ -35,10 +92,16 @@
   font-family: var(--ff-main);
   font-size: var(--fs-nm);
 }
+
+.footer-legal {
+  text-align: center;
+  font-size: var(--fs-md);
+}
+
 /* ENGLISH TEXTS END */
 
 /* ARABIC TEXTS START */
-.featured-title-arabic {
+.hero-title-arabic {
   font-family: var(--ff-main-arabic);
   font-size: clamp(var(--fs-lg), 3rem, var(--fs-xl));
   text-align: left;
@@ -78,8 +141,7 @@
   font-size: var(--fs-nm);
 }
 
-.body-arabic{
+.body-arabic {
   font-family: var(--ff-secondary-arabic);
-  
 }
 /* ARABIC TEXTS END */

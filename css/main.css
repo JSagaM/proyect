@@ -10,3 +10,27 @@
 @import url("./layout/navigation.css");
 
 @import url("./components/components.css");
+
+.margin-none{
+    margin: 0;
+}
+
+/* media queries */
+/* landscape phone - less than 768px */
+@media (max-width: 767.98px){
+
+    .in-touch{
+        margin: 0 1rem 2rem;
+        text-align: center;
+        order: 2;
+    }
+
+    .subscribe-image{
+        margin-bottom: 0;
+    }
+
+    .subscribe-title{
+        margin: auto;
+    }
+
+}

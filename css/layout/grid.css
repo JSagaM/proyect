@@ -1,12 +1,3 @@
-.main-dish {
-  align-content: center;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 45vw));
-  text-align: center;
-  margin: 1.5rem;
-}
-
 .cta-container {
   display: flex;
   align-items: center;
@@ -36,9 +27,10 @@
   text-align: left;
 }
 
-.dish-image {
-  display: grid;
-  padding: 1rem 1rem;
+.dish-image{
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
 }
 
 .featured {
@@ -50,3 +42,38 @@
 .dish-container {
   text-align: center;
 }
+
+.order-container {
+  margin-top: 2rem;
+}
+
+.form-items {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin: 0.5rem 0;
+  align-items: center;
+  height: 2rem;
+}
+
+.form-container {
+  text-align: left;
+}
+
+.form-input {
+  width: 70%;
+}
+
+/* ***** REVISAR UTILIZACIÓN ***** */
+.in-touch{
+  display: grid;
+  align-items: center;
+  align-content: center;
+  margin-left: 3rem;
+}
+
+.subscribe{
+  border-radius: 2rem;
+  background: var(--clr-inner-bg);
+}
+/* ***** REVISAR UTILIZACIÓN ***** */

@@ -20,12 +20,13 @@
   --fw-rg: 400;
 
   /* Colors HSLA */
-  --clr-main-bg: rgb(234, 234, 234);
+  --clr-main-bg: hsla(0, 0%, 92%, 1);
   --clr-gray-bg: hsla(0, 0%, 55%, 0.1);
   --clr-gray-txt: hsla(0, 0%, 55%, 1);
   --clr-red: hsla(0, 100%, 50%, 0.6);
   --clr-white: hsla(0, 0%, 100%, 1);
   --clr-green: hsla(120, 100%, 25%, 1);
+  --clr-black: hsla(0, 0%, 0%, 1);
 
   /* Icons */
   --icon-rarrow: url("../../imgs/icons/right-arrow.png");

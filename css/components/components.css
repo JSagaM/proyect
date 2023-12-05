@@ -13,13 +13,7 @@
 .featured-image {
   border-radius: 1rem;
   display: block;
-  width: 100%;
-}
-
-.slider-image{
-  display: block;
-  width: 100%;
-  height: max-content;
+  width: 80vw;
 }
 
 .btn {
@@ -28,6 +22,7 @@
   border-radius: 1.5rem;
   display: flex;
   padding: 0.5rem 2rem;
+  text-decoration: none;
 }
 
 .dish-icon {
@@ -44,20 +39,20 @@
 .dish-image {
   border-radius: 1rem;
   display: block;
-  width: 10pc;
+  width: 100%;
 }
 
 .dish-price {
-  background: var(--clr-main-bg);
+  display: block;
+  position: absolute;
+  background: var(--clr-white);
+  color: var(--clr-main);
+  text-align: center;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  padding: 0.5rem 0.8rem;
   bottom: 0;
-  color: var(--clr-gray-txt);
-  display: block;
   left: 50%;
-  padding: 0.5rem 2rem;
-  position: absolute;
-  text-align: center;
   transform: translate(-50%, 0);
 }
 
@@ -78,16 +73,36 @@
   padding: 1rem 1.5rem;
   text-decoration: none;
   width: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
-/* SLIDE TESTING */
+.read-btn:hover {
+  background: var(--clr-red);
+  color: var(--clr-white);
+}
+
+.login-btn{
+  margin: auto;
+  width: 20%;
+  background: var(--clr-black);
+  color: var(--clr-white);
+  padding: 0.5rem;
+}
+
+/* ***** SLIDE TESTING ***** */
+.slider-image {
+  display: block;
+  width: 100%;
+  height: max-content;
+}
+
 #slider {
   margin: 0 auto;
   width: 70vw;
   max-width: 100%;
   text-align: center;
 }
-.slide-content{
+.slide-content {
   width: 500%;
 }
 
